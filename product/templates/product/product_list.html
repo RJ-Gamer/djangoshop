@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Products</h2>
+    <hr>
+    <div class="row">
+        {% for product in products %}
+        <div class="col-4 text-center">
+            <div class="card p-3">
+                <a class="nav-link" href="{% url 'product:product_detail' product.id %}"><h3>{{ product.name }}</h3></a>
+                <p class="price">{{ product.price }}</p>
+                <p>{{ product.description }}</p>
+                <p class="vendor">Sold by: {{ product.vendor}}</p>
+                <a href="" class="btn btn-dark">Add to cart</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock content %}

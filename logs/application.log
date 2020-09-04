@@ -1,0 +1,29 @@
+2020-09-04 05:34:02,705 - INFO - managers - New user with Name: System Admin and email: admin@test.com has been created
+2020-09-04 06:28:48,567 - INFO - managers - New user with Name: Rahul Shinde and email: rahul@test.com has been created
+2020-09-04 07:07:56,732 - INFO - views - User with email: rajat@test.com has logged in
+2020-09-04 07:08:11,443 - INFO - views - User with email: admin@test.com has logged in
+2020-09-04 07:08:28,106 - INFO - views - User with email: rahul@test.com has logged in
+2020-09-04 07:11:32,928 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-04 07:22:57,259 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-04 08:08:49,898 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-04 08:10:58,352 - INFO - managers - New user with Name: Sanket Jog and email: sanket@test.com has been created
+2020-09-04 08:12:31,735 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
+2020-09-04 08:20:10,430 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-04 08:22:45,023 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-04 08:24:06,446 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
+2020-09-04 09:12:59,356 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-04 09:13:14,263 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
+2020-09-04 09:16:54,893 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-04 09:17:19,423 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
+2020-09-04 09:19:04,485 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-04 11:05:54,050 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
+2020-09-04 11:08:27,398 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
+2020-09-04 11:09:38,222 - INFO - managers - New user with Name: Aniket Jog and email: aniket@test.com has been created
+2020-09-04 11:09:48,940 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in
+2020-09-04 11:11:53,184 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in
+2020-09-04 11:15:54,145 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
+2020-09-04 11:19:57,152 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
+2020-09-04 11:22:43,447 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
+2020-09-04 11:26:15,246 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-04 12:14:38,999 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
+2020-09-04 13:02:08,254 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in
