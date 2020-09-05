@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'user.apps.UserConfig',
     'product.apps.ProductConfig',
     'address.apps.AddressConfig',
+    'cart.apps.CartConfig',
 ]
 
 AUTH_USER_MODEL = 'user.User'
@@ -53,6 +54,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'cart.middleware.cart_middleware',
 ]
 
 ROOT_URLCONF = 'estore.urls'
@@ -164,6 +166,11 @@ LOGGING = {
             'propagate': True,
         },
         'address': {
+            'level': 'DEBUG',
+            'handlers': ['file', 'console'],
+            'propagate': True,
+        },
+        'cart': {
             'level': 'DEBUG',
             'handlers': ['file', 'console'],
             'propagate': True,

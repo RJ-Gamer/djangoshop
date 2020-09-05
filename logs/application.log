@@ -12,3 +12,11 @@
 2020-09-05 05:46:54,509 - INFO - views - Rajat Jog has deleted his address with Address: Rajat Jog, 8796642197, Raghoba Patil Nagar, Samarth Colony, Lane-2, Pune, 411014, Maharashtra, India
 2020-09-05 05:47:28,178 - INFO - views - Rajat Jog created a new address
 2020-09-05 05:50:37,356 - INFO - views - Rajat Jog created a new address
+2020-09-05 06:46:21,731 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-05 06:47:08,294 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in
+2020-09-05 06:47:24,140 - INFO - views - Aniket Jog has deleted his address with Address: Aniket Jog, 9527237377, Raghoba Patil Nagar, Samarth Colony, Pune, 411014, Maharashtra, India
+2020-09-05 06:49:08,381 - INFO - views - Aniket Jog created a new address
+2020-09-05 07:59:45,328 - INFO - signals - Assigned Rahul Shinde to cart id: 2
+2020-09-05 07:59:45,329 - INFO - views - User: Rahul Shinde,  with email: rahul@test.com has logged in
+2020-09-05 08:12:14,082 - INFO - signals - Assigned Rajat Jog to cart id: 3
+2020-09-05 08:12:14,082 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in

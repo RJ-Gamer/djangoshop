@@ -8,5 +8,5 @@
     <hr>
     <h6>Sold by: {{ product.vendor}}</h6>
     <hr>
-    <a href="" class="btn btn-dark">Add to Cart</a>
+    <a href="{% url 'cart:add_to_cart'%}?product_id={{product.id}}" class="btn btn-dark">Add to Cart</a>
 {% endblock content %}

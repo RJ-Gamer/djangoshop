@@ -10,7 +10,7 @@
                 <p class="price">{{ product.price }}</p>
                 <p>{{ product.description }}</p>
                 <p class="vendor">Sold by: {{ product.vendor}}</p>
-                <a href="" class="btn btn-dark">Add to cart</a>
+                <a href="{% url 'cart:add_to_cart' %}?product_id={{ product.id}}" class="btn btn-dark">Add to cart</a>
             </div>
         </div>
         {% endfor %}

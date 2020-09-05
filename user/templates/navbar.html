@@ -13,9 +13,9 @@
                 <a class="nav-link" href="{% url 'address:address_list' %}">My Addresses</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link">
-                    Basket
-                    <span class="badge badge-danger"></span>
+                <a href="{% url 'cart:cart'%}" class="nav-link">
+                    Cart
+                    <span class="badge badge-success">{{ request.cart.count }}</span>
                 </a>
             </li>
         </ul>
