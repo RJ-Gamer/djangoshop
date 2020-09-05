@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     'user.apps.UserConfig',
     'product.apps.ProductConfig',
+    'address.apps.AddressConfig',
 ]
 
 AUTH_USER_MODEL = 'user.User'
@@ -153,6 +154,16 @@ LOGGING = {
     },
     'loggers': {
         'user': {
+            'level': 'DEBUG',
+            'handlers': ['file', 'console'],
+            'propagate': True,
+        },
+        'product': {
+            'level': 'DEBUG',
+            'handlers': ['file', 'console'],
+            'propagate': True,
+        },
+        'address': {
             'level': 'DEBUG',
             'handlers': ['file', 'console'],
             'propagate': True,

@@ -13,8 +13,8 @@
         </tr>
         {% for product in products %}
         <tr>
-            <td>{{ product.id }}</td>
-            <td>{{ product.name }}</td>
+            <td><a href="{% url 'product:product_detail' product.id %}">{{ product.id }}</a></td>
+            <td><a href="{% url 'product:product_detail' product.id %}">{{ product.name }}</a></td>
             <td>{{ product.price }}</td>
             <td>{{ product.available }}</td>
             <td><a href="{% url 'product:product_update' product.id %}" class="btn btn-dark">Update</a></td>

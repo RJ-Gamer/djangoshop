@@ -1,29 +1,14 @@
-2020-09-04 05:34:02,705 - INFO - managers - New user with Name: System Admin and email: admin@test.com has been created
-2020-09-04 06:28:48,567 - INFO - managers - New user with Name: Rahul Shinde and email: rahul@test.com has been created
-2020-09-04 07:07:56,732 - INFO - views - User with email: rajat@test.com has logged in
-2020-09-04 07:08:11,443 - INFO - views - User with email: admin@test.com has logged in
-2020-09-04 07:08:28,106 - INFO - views - User with email: rahul@test.com has logged in
-2020-09-04 07:11:32,928 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
-2020-09-04 07:22:57,259 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
-2020-09-04 08:08:49,898 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
-2020-09-04 08:10:58,352 - INFO - managers - New user with Name: Sanket Jog and email: sanket@test.com has been created
-2020-09-04 08:12:31,735 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
-2020-09-04 08:20:10,430 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
-2020-09-04 08:22:45,023 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
-2020-09-04 08:24:06,446 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
-2020-09-04 09:12:59,356 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
-2020-09-04 09:13:14,263 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
-2020-09-04 09:16:54,893 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
-2020-09-04 09:17:19,423 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
-2020-09-04 09:19:04,485 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
-2020-09-04 11:05:54,050 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
-2020-09-04 11:08:27,398 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
-2020-09-04 11:09:38,222 - INFO - managers - New user with Name: Aniket Jog and email: aniket@test.com has been created
-2020-09-04 11:09:48,940 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in
-2020-09-04 11:11:53,184 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in
-2020-09-04 11:15:54,145 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
-2020-09-04 11:19:57,152 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
-2020-09-04 11:22:43,447 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
-2020-09-04 11:26:15,246 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
-2020-09-04 12:14:38,999 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
-2020-09-04 13:02:08,254 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in
+2020-09-04 15:08:06,227 - INFO - views - Aniket Jog is updated the product: Dell-5558
+2020-09-04 15:08:32,981 - INFO - views - Aniket Jog has deleted product: Dell-5558
+2020-09-04 15:09:08,695 - INFO - views - Aniket Jog is created new product: Dell-5558
+2020-09-04 15:16:43,241 - INFO - views - Aniket Jog is created new product: Syska Hair Drier
+2020-09-04 16:10:59,007 - INFO - views - Aniket Jog created a new address
+2020-09-04 16:11:49,909 - INFO - views - Aniket Jog created a new address
+2020-09-04 16:12:09,820 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-05 05:04:42,103 - INFO - views - Rajat Jog created a new address
+2020-09-05 05:32:49,387 - INFO - views - Rajat Jog updated their address with id: 3
+2020-09-05 05:40:11,047 - INFO - views - Rajat Jog updated their address with id: 3
+2020-09-05 05:40:56,414 - INFO - views - Rajat Jog updated their address with id: 3
+2020-09-05 05:46:54,509 - INFO - views - Rajat Jog has deleted his address with Address: Rajat Jog, 8796642197, Raghoba Patil Nagar, Samarth Colony, Lane-2, Pune, 411014, Maharashtra, India
+2020-09-05 05:47:28,178 - INFO - views - Rajat Jog created a new address
+2020-09-05 05:50:37,356 - INFO - views - Rajat Jog created a new address
