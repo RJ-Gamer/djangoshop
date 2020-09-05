@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'product.apps.ProductConfig',
     'address.apps.AddressConfig',
     'cart.apps.CartConfig',
+    'order.apps.OrderConfig',
 ]
 
 AUTH_USER_MODEL = 'user.User'
@@ -171,6 +172,11 @@ LOGGING = {
             'propagate': True,
         },
         'cart': {
+            'level': 'DEBUG',
+            'handlers': ['file', 'console'],
+            'propagate': True,
+        },
+        'order': {
             'level': 'DEBUG',
             'handlers': ['file', 'console'],
             'propagate': True,

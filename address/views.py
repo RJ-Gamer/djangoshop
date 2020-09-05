@@ -1,7 +1,10 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from .models import Address
-from .forms import AddressForm
+from .forms import AddressForm, AddressSelectionForm
+from django.views.generic import FormView, CreateView, UpdateView, DeleteView
+from django.urls import reverse_lazy
+from cart.models import Cart
 import logging
 
 logger = logging.getLogger(__name__)
@@ -51,3 +54,22 @@ def address_delete(request, id):
         return redirect('address:address_list')
     context = {'address': address}
     return render(request, 'address/address_delete.html', context)
+
+class AddressSelectionView(FormView):
+    template_name = 'address/address_select.html'
+    form_class = AddressSelectionForm
+    success_url = reverse_lazy('order:checkout_done')
+
+    def get_form_kwargs(self):
+        kwargs = super().get_form_kwargs()
+        kwargs['user'] = self.request.user
+        return kwargs
+
+    def form_valid(self, form):
+        del self.request.session['cart_id']
+        cart = self.request.cart
+        cart.create_order(
+            form.cleaned_data['billing_address'],
+            form.cleaned_data['shipping_address']
+        )
+        return super().form_valid(form)
