@@ -34,3 +34,18 @@
 2020-09-05 12:41:53,543 - INFO - models - Creating order for cart_id: 1, shipping_address_id: 1, billing_address_id: 1
 2020-09-05 12:44:08,391 - INFO - models - Creating order for cart_id: 1, shipping_address_id: 1, billing_address_id: 1
 2020-09-05 12:44:08,641 - INFO - models - Created order with id=1 and lines_count=1
+2020-09-05 14:51:30,808 - INFO - managers - New user with Name: Aniket Jog and email: aniket@test.com has been created
+2020-09-05 14:51:41,432 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in
+2020-09-05 14:53:03,162 - INFO - views - Aniket Jog created a new address
+2020-09-05 14:53:12,892 - INFO - models - Creating order for cart_id: 2, shipping_address_id: 2, billing_address_id: 2
+2020-09-05 14:53:13,167 - INFO - models - Created order with id=2 and lines_count=1
+2020-09-05 14:57:00,845 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in
+2020-09-06 05:28:57,202 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-06 05:46:15,160 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-06 05:58:46,439 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in
+2020-09-06 05:59:06,160 - INFO - models - Creating order for cart_id: 3, shipping_address_id: 2, billing_address_id: 2
+2020-09-06 05:59:06,453 - INFO - models - Created order with id=3 and lines_count=1
+2020-09-06 05:59:22,606 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-06 06:08:26,421 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-06 06:17:10,159 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in
+2020-09-06 09:34:36,292 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in

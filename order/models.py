@@ -32,6 +32,20 @@ class Order(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
 
+    def billing_address(self):
+        return ", ".join([
+            self.billing_name, self.billing_contact, self.billing_address1,
+            self.billing_address2, self.billing_city, self.billing_zipcode,
+            self.billing_state, self.billing_country
+        ])
+
+    def shipping_address(self):
+        return ", ".join([
+            self.shipping_name, self.shipping_contact, self.shipping_address1,
+            self.shipping_address2, self.shipping_city, self.shipping_zipcode,
+            self.shipping_state, self.shipping_country
+        ])
+
 class OrderLine(models.Model):
     NEW = 10
     PROCESSING = 20
@@ -44,4 +58,3 @@ class OrderLine(models.Model):
     product = models.ForeignKey(Product, on_delete=models.PROTECT)
     vendor = models.ForeignKey(User, on_delete=models.PROTECT)
     status = models.IntegerField(choices=STATUSES, default=NEW)
-    

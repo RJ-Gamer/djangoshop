@@ -5,9 +5,10 @@ from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 import logging
 from product.models import Product
+from order.models import Order, OrderLine
+from cart.models import Cart, CartLine
 
 logger = logging.getLogger(__name__)
-
 
 # Create your views here.
 def register(request):
@@ -66,9 +67,11 @@ def user_logout(request):
 
 def vendor(request):
     products = Product.objects.filter(vendor=request.user)
-    context = {'products': products}
+    orders = OrderLine.objects.filter(vendor=request.user)
+    context = {'products': products, 'orders': orders}
     return render(request, 'user/vendor.html', context)
 
 def customer(request):
-    context = {}
+    orders = Cart.objects.filter(user=request.user)
+    context = {'orders': orders}
     return render(request, 'user/customer.html', context)
