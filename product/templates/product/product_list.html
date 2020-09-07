@@ -8,7 +8,10 @@
             <div class="card p-3 my-3">
                 <a class="nav-link" href="{% url 'product:product_detail' product.id %}"><h3>{{ product.name }}</h3></a>
                 <p class="price">{{ product.price }}</p>
-                <p>{{ product.description }}</p>
+                <p>
+                    {{ product.description|safe|truncatewords:'60'|linebreaks }}
+                    <a href="{% url 'product:product_detail' product.id %}" class="nav-link">Read more</a>
+                </p>
                 <p class="vendor">Sold by: {{ product.vendor}}</p>
                 <a href="{% url 'cart:add_to_cart' %}?product_id={{ product.id}}" class="btn btn-dark">Add to cart</a>
             </div>

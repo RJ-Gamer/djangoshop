@@ -21,6 +21,5 @@ class Product(models.Model):
     def get_price(self):
         return self.price
 
-    @property
     def is_available(self):
         return self.available

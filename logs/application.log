@@ -49,3 +49,8 @@
 2020-09-06 06:08:26,421 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
 2020-09-06 06:17:10,159 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in
 2020-09-06 09:34:36,292 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in
+2020-09-06 09:49:34,607 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-07 04:10:41,505 - INFO - signals - Authtoken for User: Sagar Shinde is successfully created
+2020-09-07 04:10:41,533 - INFO - managers - New user with Name: Sagar Shinde and email: sagar@test.com has been created
+2020-09-07 04:10:55,297 - INFO - views - User: Sagar Shinde,  with email: sagar@test.com has logged in
+2020-09-07 04:15:01,542 - INFO - views - Sagar Shinde is created new product: D-Link Router
